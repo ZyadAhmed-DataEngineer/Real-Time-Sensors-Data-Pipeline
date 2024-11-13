@@ -13,6 +13,9 @@ This project demonstrates a data pipeline for ingesting, transforming, and stori
 - **Decodable Pipelines**: Connects to Kinesis, applies transformations and aggregations, and routes data through AWS MSF.
 - **PostgreSQL on Neon**: Stores the processed data for analysis and visualization.
 
+  ![Project_Architecture](https://github.com/user-attachments/assets/07e00837-2c3e-490a-adf1-37558cc23a41)
+
+
 ## Features
 
 - Real-time data ingestion and processing
@@ -24,10 +27,3 @@ This project demonstrates a data pipeline for ingesting, transforming, and stori
 
 1. Update the `config.json` file with your AWS and PostgreSQL credentials, as well as any necessary device settings.
 2. Set the stream interval and specify device IDs/types as required.
-
-## Usage
-
-Run the data producer script to start sending sensor data to Kinesis:
-
-```bash
-python data_producer.py
